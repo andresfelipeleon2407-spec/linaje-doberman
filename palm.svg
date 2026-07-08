@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 380" fill="none">
+  <defs>
+    <linearGradient id="palmG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B08D57"/>
+      <stop offset="0.5" stop-color="#7a5f37"/>
+      <stop offset="1" stop-color="#2a2118"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#palmG)">
+    <!-- Tronco (palma de cera: alto y delgado) -->
+    <path d="M74 380 C 76 300 77 220 78 150 L 84 150 C 85 220 86 300 88 380 Z"/>
+    <rect x="75" y="200" width="12" height="3" rx="1.5" opacity="0.5"/>
+    <rect x="75" y="240" width="12" height="3" rx="1.5" opacity="0.5"/>
+    <rect x="75" y="280" width="12" height="3" rx="1.5" opacity="0.5"/>
+    <rect x="75" y="320" width="12" height="3" rx="1.5" opacity="0.5"/>
+    <!-- Corona de hojas -->
+    <path d="M80 150 C 74 96 76 54 81 8 C 88 50 90 100 84 150 Z"/>
+    <path d="M80 152 C 52 120 30 96 8 70 C 36 92 64 120 84 150 Z"/>
+    <path d="M84 152 C 112 120 134 96 156 70 C 128 92 100 120 80 150 Z"/>
+    <path d="M80 156 C 46 146 22 142 -2 144 C 26 152 54 160 82 160 Z"/>
+    <path d="M84 156 C 118 146 142 142 166 144 C 138 152 110 160 82 160 Z"/>
+    <path d="M80 154 C 56 132 36 116 18 100 C 40 124 64 144 83 158 Z" opacity="0.85"/>
+    <path d="M84 154 C 108 132 128 116 146 100 C 124 124 100 144 81 158 Z" opacity="0.85"/>
+    <circle cx="82" cy="150" r="7"/>
+  </g>
+</svg>
