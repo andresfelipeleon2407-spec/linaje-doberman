@@ -1,0 +1,36 @@
+SECUENCIA 360° DEL DÓBERMAN (canvas scroll)
+===========================================
+
+Esta carpeta está vacía a propósito. Mientras no haya frames,
+la sección "360°" funciona en MODO SINTÉTICO (gira una silueta)
+para que veas el mecanismo en acción.
+
+CÓMO ACTIVAR LA SECUENCIA REAL
+------------------------------
+1. Renderiza/fotografía tu Dóberman girando 360° y exporta los
+   frames como imágenes numeradas, p. ej.:
+
+      doberman-00001.webp
+      doberman-00002.webp
+      ...
+      doberman-00120.webp
+
+2. Colócalos en esta carpeta (assets/frames/).
+
+3. Ajusta, si hace falta, los atributos del <canvas> en index.html
+   (sección "SECUENCIA CANVAS"):
+
+      data-frames="120"   -> número total de frames
+      data-digits="5"     -> dígitos del número (00001 = 5)
+      data-start="1"      -> número del primer frame
+      data-prefix="assets/frames/doberman-"
+      data-ext="webp"     -> extensión (webp recomendado)
+
+El código detecta automáticamente el primer frame: si existe,
+usa la secuencia real; si no, vuelve al modo sintético.
+
+RECOMENDACIONES
+---------------
+- 60–120 frames es un buen rango (fluidez vs. peso).
+- Exporta en WebP o AVIF, fondo transparente o a juego con el sitio.
+- Mantén un tamaño consistente (p. ej. 1600x1600) y comprime.
